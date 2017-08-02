@@ -1,0 +1,21 @@
+﻿.products {
+    position: relative; 
+}
+
+.products__title {
+    width: 100vw;
+    font-family: FjallaOne-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.products__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow-y: scroll;
+}
