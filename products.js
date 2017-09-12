@@ -1,8 +1,7 @@
 ﻿import React, { Component } from 'react';
 import ReactDOM from 'react-dom' 
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; 
-import * as _ from "lodash";
-import Product from "../product/product";
+import Product from "@mortonprod/react-product-component";
+import "@mortonprod/react-product-component/dist/index.css";
 import "./products.css";
 /**
     This places all products in a scrollable div.
